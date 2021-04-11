@@ -1302,4 +1302,6 @@ F 3 "" H 3350 7200 50  0001 C CNN
 	1    3350 7200
 	1    0    0    -1  
 $EndComp
+Text Notes 13950 3550 0    118  ~ 0
+Volume Pot
 $EndSCHEMATC
