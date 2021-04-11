@@ -1270,4 +1270,36 @@ Wire Wire Line
 	8400 3300 8400 3500
 Wire Wire Line
 	8400 2850 9600 2850
+Text Notes 8900 9550 0    118  ~ 0
+all the info and details about the project\nhttps://acidbourbon.wordpress.com/2021/04/11/a-74xx-defined-radio/
+Text Notes 8900 7600 0    157  ~ 0
+a 74xx based shortwave receiver\n2021 by Michael Wiebusch
+$Comp
+L Device:CP C16
+U 1 1 6074F91B
+P 3350 6950
+F 0 "C16" H 3468 6996 50  0000 L CNN
+F 1 "100u" H 3468 6905 50  0000 L CNN
+F 2 "" H 3388 6800 50  0001 C CNN
+F 3 "~" H 3350 6950 50  0001 C CNN
+	1    3350 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 6700 3350 6700
+Wire Wire Line
+	3350 6700 3350 6800
+Wire Wire Line
+	3350 7100 3350 7200
+$Comp
+L power:GND #PWR031
+U 1 1 6075822F
+P 3350 7200
+F 0 "#PWR031" H 3350 6950 50  0001 C CNN
+F 1 "GND" H 3355 7027 50  0000 C CNN
+F 2 "" H 3350 7200 50  0001 C CNN
+F 3 "" H 3350 7200 50  0001 C CNN
+	1    3350 7200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
