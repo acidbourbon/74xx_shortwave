@@ -1270,9 +1270,9 @@ Wire Wire Line
 	8400 3300 8400 3500
 Wire Wire Line
 	8400 2850 9600 2850
-Text Notes 8900 9550 0    118  ~ 0
+Text Notes 8700 9450 0    118  ~ 0
 all the info and details about the project\nhttps://acidbourbon.wordpress.com/2021/04/11/a-74xx-defined-radio/
-Text Notes 8900 7600 0    157  ~ 0
+Text Notes 8700 8200 0    157  ~ 0
 a 74xx based shortwave receiver\n2021 by Michael Wiebusch
 $Comp
 L Device:CP C16
@@ -1302,6 +1302,8 @@ F 3 "" H 3350 7200 50  0001 C CNN
 	1    3350 7200
 	1    0    0    -1  
 $EndComp
-Text Notes 13950 3550 0    118  ~ 0
-Volume Pot
+Text Notes 14000 3750 0    118  ~ 0
+Volume\nPot
+Text Notes 11150 4700 0    118  ~ 0
+active half wave\nrectifier
 $EndSCHEMATC
